@@ -1,9 +1,7 @@
 *{margin: 0; padding: 0; border-box: box-sizing;}
 body{
-	background-image: url('../images/background.jpg');
+	background:url('../images/background.jpg') no-repeat fixed;
 	background-size: cover; 
-	background-repeat: no-repeat;
-	background-attachment: fixed;
 	font-family: helvetica, sans-serif;
 	font-size: 16px;
 	color: #fff;
@@ -22,25 +20,23 @@ body{
 #slogan {
 	font-style: italic;
 	font-size: 1.4em;
-	font-family: verdana;
+	font-family: verdana, sans-serif;
 	color: rgba(255,255,255,.9);
 }
 #about {
 	background-color: #037a58;
-	color: #fff;
-	line-height: 1.4em;
-	text-align: center;
-	padding:20px 0 20px 0;
+	margin:0 auto 0 auto;
+	padding:1.25em 0 1.25em 0;
+	width:75em;
 }
 #contact {
 	background-color: rgba(117,38,15,.6);
 	color: #fff;
 	text-align: center;
-	height: 20vh;
-	padding: 75px 0 0 0;
+	padding: 5em 0 5em 0;
 }
 h1 {
-	font-size: 4.2em;
+	font-size: 4em;
 }
 h2{
 	margin-left: auto;
@@ -49,14 +45,13 @@ h2{
 	font-size: 1.2em;
 	font-weight: normal;
 }
-a:link{
+a {
 	text-decoration: none;
 	font-weight: bold;
 	color: #FF7954;
 }
 a:hover{
 	text-decoration: underline;
-	color: #FF7954;
 }
 a:visited{
 	text-decoration: underline;
