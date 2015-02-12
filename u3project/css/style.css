@@ -2,25 +2,22 @@
 body{
 	background:url('../images/background.jpg') no-repeat fixed;
 	background-size: cover; 
-	font-family: helvetica, sans-serif;
-	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
 	color: #fff;
 }
 #intro {
 	height:90vh;
 	background-color: rgba(0,0,0,.4);
-	font-family: optima, sans-serif;
-	font-size: 1.4em;
 }
 #intro div {
-	padding:450px 0 0 200px;
-	line-height: 3em;
+	padding: 25em 0 0 9em;
+	line-height: 4em;
 	color: #fff;
 }
 #slogan {
 	font-style: italic;
-	font-size: 1.4em;
-	font-family: verdana, sans-serif;
+	font-size: 2em;
 	color: rgba(255,255,255,.9);
 }
 #about {
@@ -29,7 +26,12 @@ body{
 }
 #about div {
 	margin:0 auto 0 auto;
-	width:75em;
+	width: 70em;
+}
+#description {
+	width: 50%;
+	margin:auto;
+	padding: 0 0 1.5em 0;
 }
 #contact {
 	background-color: rgba(117,38,15,.6);
@@ -38,31 +40,38 @@ body{
 	padding: 5em 0 5em 0;
 }
 h1 {
-	font-size: 4em;
+	font-family: 'Lustria', serif;
+	font-size: 5em;
+	font-weight: 400;
 }
 h2{
-	margin-left: auto;
-	margin-right: auto;
 	width: 50%;
-	font-size: 1.2em;
-	font-weight: normal;
+	margin: auto;
+	text-align: center;
+	font-size: 1.75em;
+	font-family: 'Lustria', serif;
+}
+h3{
+	font-size: 1.5em;
+	font-family: 'Lustria', serif;
+	font-weight: 400;
 }
 a {
 	text-decoration: none;
-	font-weight: bold;
 	color: #FF7954;
 }
 a:hover{
 	text-decoration: underline;
 }
 a:visited{
-	text-decoration: underline;
+	text-decoration: none;
 	color: #fff;
 }
 .services {
 	float:left;
-	padding:1em;
+	padding: 1.25em;
 	width:33.33%;
+	font-weight: 300;
 }
 .clearfix:after { 
 	content: "."; 
