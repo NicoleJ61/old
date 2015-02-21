@@ -1,0 +1,92 @@
+*{margin: 0; padding: 0; box-sizing:border-box;}
+
+body{
+	background: url('../images/background.png') no-repeat fixed;
+	background-size: cover;
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Muli', sans-serif;
+}
+nav{
+	font-size: 18px;
+	background: #fff;
+	padding: 1em;
+}
+span{
+	float: right;
+	padding: 1.2em 0 0 0;
+	font-variant: small-caps;
+}
+a{ 
+	color: #138748;
+	border-style: none;
+	padding: 1em;
+	margin: .2em;
+	text-decoration: none;
+}
+h1{ 
+	font-size: 3em;
+	display: inline;
+	color: #138748;
+	font-family: 'Ovo', serif;
+	font-weight: 400;
+}
+img{ 
+	max-width: 40%;
+	border-radius: 40px;
+	border: 5px #fff solid;
+}
+.intro{
+	padding: 8em 5em;
+	background: rgba(255,255,255,.6)
+}
+#hello{
+	color: #FFFA80;
+	font-weight: 600;
+	font-size: 2.5em;
+	font-family: 'Ovo', serif;
+}
+#brief{
+	float: right;
+	width: 50%;
+	padding: 1em 1em 4em 1em;
+}
+h2{ 
+	font-size: 2em;
+	margin: 1em 0;
+	color: #138748;
+	font-family: 'Ovo', serif;
+	font-weight: 400;
+}
+h3{
+	padding: .5em 0;
+	font-weight: 400;
+}
+#experience{
+	clear: both;
+	background: rgba(255,255,255,1);
+	color: #138748;
+	padding: 2em;
+}
+.skills{
+	float:left;
+	width: 33%;
+	padding: 1em;
+}
+p{
+	line-height: 1.2em;
+	color: #222;
+}
+#home{
+	text-decoration: none;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+.clearfix:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
