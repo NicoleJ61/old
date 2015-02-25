@@ -28,6 +28,9 @@ a{
 	margin: .2em;
 	text-decoration: none;
 }
+a:hover{
+	color: #FFDC46;
+}
 h1{ 
 	font-size: 3em;
 	display: inline;
