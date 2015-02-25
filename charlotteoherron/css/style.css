@@ -7,6 +7,10 @@ body{
 	color: #fff;
 	font-family: 'Muli', sans-serif;
 }
+.wrapper{
+	width: 1200px;
+	margin: 0 auto;
+}
 nav{
 	font-size: 18px;
 	background: #fff;
@@ -18,7 +22,7 @@ span{
 	font-variant: small-caps;
 }
 a{ 
-	color: #138748;
+	color: #00AF38;
 	border-style: none;
 	padding: 1em;
 	margin: .2em;
@@ -27,21 +31,30 @@ a{
 h1{ 
 	font-size: 3em;
 	display: inline;
-	color: #138748;
+	color: #00AF38;
 	font-family: 'Ovo', serif;
 	font-weight: 400;
 }
+#splash{
+	height: 50vh;
+}
+#greeting{
+	width: 1000px;
+	background: #FFDC46;
+	padding: 2em;
+	border-radius: 20px;
+	margin: 0 auto;
+}
 img{ 
-	max-width: 40%;
-	border-radius: 40px;
-	border: 5px #fff solid;
+	max-width: 400px;
+	border-radius: 20px;
 }
 .intro{
-	padding: 8em 5em;
-	background: rgba(255,255,255,.6)
+	padding: 3em;
+	background: #FFF;
 }
 #hello{
-	color: #FFFA80;
+	color: #fff;
 	font-weight: 600;
 	font-size: 2.5em;
 	font-family: 'Ovo', serif;
@@ -54,7 +67,7 @@ img{
 h2{ 
 	font-size: 2em;
 	margin: 1em 0;
-	color: #138748;
+	color: #00AF38;
 	font-family: 'Ovo', serif;
 	font-weight: 400;
 }
@@ -65,7 +78,7 @@ h3{
 #experience{
 	clear: both;
 	background: rgba(255,255,255,1);
-	color: #138748;
+	color: #00AF38;
 	padding: 2em;
 }
 .skills{
