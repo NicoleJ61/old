@@ -1,0 +1,151 @@
+*{
+	margin: 0; 
+	padding: 0;
+	box-sizing:border-box;
+}
+body{
+	background:url('../images/background.jpg') no-repeat fixed;
+	background-size: cover; 
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #715846;
+}
+nav{
+	text-align: right;
+	background: #FFF;
+	padding: 1.6em;
+	position: fixed-top;
+	width: 100%;
+}
+h1>a{
+	color: #3B6C71;
+}
+h1>a:hover{
+	text-decoration: none;
+}
+nav>a {
+	color: #3B6C71;
+	padding: 1.2em;
+	font-variant: small-caps;
+	font-size: 1.1em;
+	display: inline-block;
+}
+#intro {
+	height:80vh;
+	background-color: rgba(255,255,255,.2);
+}
+#intro div {
+	padding: 27em 0 0 9em;
+	line-height: 4em;
+	color: #fff;
+}
+#about {
+	background-color: #FFF;
+	padding:1.25em 0 1.25em 0;
+}
+#description {
+	width: 50%;
+	margin:auto;
+	padding: 4em 0 6em 0;
+	color: #3B6C71;
+}
+#services{
+	background: #FFE4D0;
+	margin: 0 auto;
+	padding: 4em;
+}
+.icon{
+	display: block;
+	padding-left: 25%;
+	margin-top:2em;
+	margin-bottom: 2em;
+}
+#portfolio{
+	background: #FFF;
+	padding: 5em;
+	margin: 0 auto;
+	text-align: center;
+	color: #3B6C71;
+}
+.preview{
+	max-width: 40%;
+	padding: 2em;
+	display: inline-block;
+	border-style: solid;
+	border-color: #D0FAFF;
+}
+#contact {
+	background-color: #D0FAFF;
+	text-align: center;
+	padding: 3em 0 3em 0;
+}
+#contact>img {
+	display: inline-block;
+	padding: 2.8em;
+}
+h1 {
+	font-family: 'Merriweather', serif;
+	font-size: 3em;
+	font-weight: 400;
+	display: inline;
+	float: left;
+}
+h2{
+	margin: auto;
+	font-style: italic;
+	line-height: 1.4em;
+	font-size: 2em;
+	font-family: 'Merriweather', serif;
+	font-weight: 400;
+}
+h3{
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	padding: 1em;
+	font-size: 1.75em;
+	font-family: 'Merriweather', serif;
+	font-weight: 400;
+}
+h4{
+	font-size: 1.5em;
+	font-family: 'Merriweather', serif;
+	font-weight: 400;
+}
+a {
+	text-decoration: none;
+	color: #3B6C71;
+}
+a:hover{
+	text-decoration: underline;
+}
+a:visited{
+	text-decoration: none;
+}
+.services {
+	float:left;
+	padding: 1.25em;
+	width:33.33%;
+	font-weight: 300;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+#content{
+	background: rgba(255,255,255,.2);
+	height: 90vh;
+	color: #715846;
+	margin: 0 auto;
+}
+#moreinfo{
+	width: 40%;
+	padding: 2em;
+	margin: 0 auto;
+	background-color: #FFE4D0;
+	border: solid #BE9F88;
+	border-width: .5em;
+}
