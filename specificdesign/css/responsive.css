@@ -1,0 +1,272 @@
+@media only screen and (min-width: 1010px) and (max-width: 1060px){
+	section#portfolio h4{
+		font-size:1.2em;
+	}
+	p{
+		font-size: 1em;
+	}
+}
+
+@media only screen and (min-width: 913px) and (max-width: 1010px){
+	section#portfolio p{
+		display: none;
+	}
+	h4{
+		font-size: 1.2em;
+	}
+}
+
+@media only screen and (min-width: 870px) and (max-width: 913px){
+	section#portfolio>div{
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+		padding: none;
+	}
+	.overlay{
+		position: relative;
+		display: block;
+		color: rgba(59,108,113,1);
+	}
+	.overlay:hover {
+		background-color: #fff;
+		color: rgb(59,108,113);
+	}
+	img {
+		padding: 0;
+	}
+	h4{
+		font-size: 1.2em;
+		text-align: left;
+		margin-top: 1em;
+		display: block;
+		margin: 0 auto .2em auto;
+	}
+	p {
+		font-size: 1em;
+		margin-bottom: 3em;
+		width: 75%;
+	}
+}
+
+@media only screen and (min-width: 840px) and (max-width: 870px){
+	section nav .desktopnav{
+		display: none;
+	}
+	.mobilenav {
+		display: block;
+	}
+	nav>a {
+		display: none;
+	}
+	section#portfolio>div{
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+		padding: none;
+	}
+	.overlay{
+		position: relative;
+		display: block;
+		color: rgba(59,108,113,1);
+	}
+	.overlay:hover {
+		background-color: #fff;
+		color: rgb(59,108,113);
+	}
+	img {
+		padding: 0;
+	}
+	h4{
+		font-size: 1.2em;
+		text-align: left;
+		margin-top: 1em;
+		display: block;
+		margin: 0 auto .2em auto;
+	}
+	p {
+		font-size: 1em;
+		margin-bottom: 3em;
+		width: 75%;
+	}
+}
+
+@media only screen and (min-width: 800px) and (max-width: 840px){
+	section#portfolio>div{
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+		padding: none;
+	}
+	.overlay{
+		position: relative;
+		display: block;
+		color: rgba(59,108,113,1);
+	}
+	.overlay:hover {
+		background-color: #fff;
+		color: rgb(59,108,113);
+	}
+	img {
+		padding: 0;
+	}
+	h4{
+		font-size: 1.2em;
+		text-align: left;
+		margin-top: 1em;
+		display: block;
+		margin: 0 auto .2em auto;
+	}
+	p {
+		font-size: 1em;
+		margin-bottom: 3em;
+		width: 75%;
+	}
+	section#intro {
+		display:none;
+	}
+	section nav .desktopnav{
+		display: none;
+	}
+	.mobilenav {
+		display: block;
+	}
+	nav>a {
+		display: none;
+	}
+	section#about {
+		background-color: #D0FAFF;
+	}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px){
+	section#services .services{
+		float: none;
+		width: 75%;
+		margin: 0 auto;
+	}
+	.services>h4{
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+	}
+	.services>p{
+		width: 75%;
+		margin: 0 auto;
+	}
+	section#portfolio>div{
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+		padding: none;
+	}
+	.overlay{
+		position: relative;
+		display: block;
+		color: rgba(59,108,113,1);
+	}
+	.overlay:hover {
+		background-color: #fff;
+		color: rgb(59,108,113);
+	}
+	img {
+		padding: 0;
+	}
+	h4{
+		font-size: 1.2em;
+		text-align: left;
+		margin-top: 1em;
+		display: block;
+		margin: 0 auto .2em auto;
+	}
+	p {
+		font-size: 1em;
+		margin-bottom: 3em;
+		width: 75%;
+	}
+	section#intro {
+		display:none;
+	}
+	section nav .desktopnav{
+		display: none;
+	}
+	.mobilenav {
+		display: block;
+	}
+	nav>a {
+		display: none;
+	}
+	section#about {
+		background-color: #D0FAFF;
+	}
+}
+@media only screen and (max-width: 600px){
+	section#services .services{
+		float: none;
+		width: 75%;
+		margin: 0 auto;
+	}
+	.services>h4{
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+	}
+	.services>p{
+		width: 100%;
+		margin: 0 auto;
+	}
+	section#portfolio>div{
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+		padding: none;
+	}
+	.overlay{
+		position: relative;
+		display: block;
+		color: rgba(59,108,113,1);
+	}
+	.overlay:hover {
+		background-color: #fff;
+		color: rgb(59,108,113);
+	}
+	img {
+		padding: 0;
+	}
+	h4{
+		font-size: 1.2em;
+		text-align: left;
+		margin-top: 1em;
+		display: block;
+		margin: 0 auto .2em auto;
+	}
+	p {
+		font-size: 1em;
+		margin-bottom: 3em;
+		width: 75%;
+	}
+	section#intro {
+		display:none;
+	}
+	section nav .desktopnav{
+		display: none;
+	}
+	.mobilenav {
+		display: block;
+	}
+	nav>a {
+		display: none;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	h3 {
+		font-size: 1.5em;
+	}
+	h4 {
+		font-size: 1.2em;
+	}
+	section#about {
+		background-color: #D0FAFF;
+	}
+}

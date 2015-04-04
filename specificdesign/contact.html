@@ -3,19 +3,47 @@
 
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Lustria' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Merriweather:400,400italic' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+	jQuery(function($){
+    	     $( '.menu-btn' ).click(function(){
+    	     $('.responsive-menu').toggleClass('expand')
+    	     })
+        })
+</script>
 	<title>Specific Design</title>
 </head>
 
 <body>
 	<nav role="navigation" class="clearfix">
 		<h1><a href="index.html">Specific Design</a></h1>
-		<a href="index.html#about">About</a>
-		<a href="index.html#services">Services</a>
-		<a href="index.html#portfolio">Portfolio</a>
-		<a href="contact.html">Contact</a>
+		<a href="index.html#about" class="desktopnav">About</a>
+		<a href="index.html#services" class="desktopnav">Services</a>
+		<a href="index.html#portfolio" class="desktopnav">Portfolio</a>
+		<a href="contact.html" class="desktopnav">Contact</a>
+
+		<div class="mobilenav">
+			<div class="menu-btn" id="menu-btn">
+			<div></div>
+			<span></span>
+			<span></span>
+			<span></span>
+			</div>
+
+			<div class="responsive-menu">
+				<ul>
+					<li><a href="index.html#about">About</a></li>
+					<li><a href="index.html#services">Services</a></li>
+					<li><a href="index.html#portfolio">Portfolio</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
 	</nav>
 	<section id="content">
 		<p id="moreinfo">I'd love to work with you make a website that meets your needs. To ask any questions or set up a consultation, please email me at <a href="mailto:nicolejj611@gmail.com?subject:Specific Design">nicolejj611@gmail.com</a>.</p>
